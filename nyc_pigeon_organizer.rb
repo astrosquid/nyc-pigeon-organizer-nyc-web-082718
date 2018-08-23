@@ -16,11 +16,6 @@ def nyc_pigeon_organizer(data)
       end 
     end 
   end 
-    
-    
-    
-    
-    # pigeon_names.each do |name|
-    #   if names.include?(name)
-    #     new_data[name][attribute]
+  
+  new_data
 end
