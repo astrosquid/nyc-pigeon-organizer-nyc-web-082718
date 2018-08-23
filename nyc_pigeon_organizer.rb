@@ -9,6 +9,18 @@ def nyc_pigeon_organizer(data)
     }
   end 
   
-  data.each do |attribute, names|
+  data.each do |attribute, attr_values|
+    attr_values.each do |attr_value, names|
+      names.each do |name|
+        new_data[name][attribute] << attr_value.to_s 
+      end 
+    end 
+  end 
     
+    
+    
+    
+    # pigeon_names.each do |name|
+    #   if names.include?(name)
+    #     new_data[name][attribute]
 end
