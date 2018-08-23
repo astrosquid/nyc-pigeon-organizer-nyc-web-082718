@@ -1,3 +1,3 @@
 def nyc_pigeon_organizer(data)
-  puts data.values 
+  puts data.values.dup
 end
